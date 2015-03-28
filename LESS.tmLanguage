@@ -1,13 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
+<!--
+Source: https://github.com/danro/LESS-sublime
+-->
 <dict>
 	<key>comment</key>
 	<string>LESS</string>
 	<key>fileTypes</key>
 	<array>
 		<string>less</string>
-		<string>css</string>
 	</array>
 	<key>foldingStartMarker</key>
 	<string>/\*\*(?!\*)|\{\s*($|/\*(?!.*?\*/.*\S))</string>
@@ -328,7 +330,7 @@
 			<array>
 				<dict>
 					<key>match</key>
-					<string>([%a-zA-Z\-\_\d]*)(?=\()</string>
+					<string>([%a-zA-Z\-\_\d]+)(?=\()</string>
 					<key>name</key>
 					<string>support.function.less</string>
 				</dict>
@@ -349,7 +351,7 @@
 		<key>less-operators</key>
 		<dict>
 			<key>match</key>
-			<string>/|!important|$|%|&amp;|\*|\-\-|\-|\+\+|\+|~|===|==|=|!=|!==|&lt;=|&gt;=|&lt;&lt;=|&gt;&gt;=|&gt;&gt;&gt;=|&lt;&gt;|&lt;|&gt;|!|&amp;&amp;|\|\||\?\:|(?&lt;!\()/=|%=|\+=|\-=|&amp;=|when\b|and\b|not\b</string>
+			<string>/|!important|\$|%|&amp;|\*|\-\-|\-|\+\+|\+|~|===|==|=|!=|!==|&lt;=|&gt;=|&lt;&lt;=|&gt;&gt;=|&gt;&gt;&gt;=|&lt;&gt;|&lt;|&gt;|!|&amp;&amp;|\|\||\?\:|(?&lt;!\()/=|%=|\+=|\-=|&amp;=|when\b|and\b|not\b</string>
 			<key>name</key>
 			<string>keyword.operator.less</string>
 		</dict>
@@ -393,7 +395,7 @@
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>(?:\:/)?[\/\.a-zA-Z0-9_\-]*</string>
+					<string>(?:\:/)?[\/\.a-zA-Z0-9_\-]+</string>
 					<key>name</key>
 					<string>variable.parameter.misc.css</string>
 				</dict>
